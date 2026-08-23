@@ -6,7 +6,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    --gap: 3.5vw;
+    --gap: 3.5vh;
     --background-split: 35%;
 }
 
@@ -21,13 +21,13 @@ body
 
 h1
 {
-    font-size: 2.5vw;
+    font-size: 2.5vh;
     font-weight: 500;
 }
 
 h2
 {
-    font-size: 2.2vw;
+    font-size: 2.2vh;
     font-weight: 400;
 }
 
@@ -66,17 +66,17 @@ h2
 
 #profile-card
 {
-    max-width: 40vw;
+    max-width: 40vh;
     width: 100%;
     background-image: linear-gradient(to bottom, #4070f4 0%, #4070f4 var(--background-split), #fff var(--background-split), #fff 100%);
-    box-shadow: 0 0.7vw 1.4vw #0002;
+    box-shadow: 0 0.7vh 1.4vh #0002;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
-    border-radius: 3vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 3vh;
 }
 
 #social-media
@@ -98,11 +98,11 @@ h2
 {
     display: flex;
     flex-direction: row;
-    padding: 0.6vw 3vw;
+    padding: 0.6vh 3vh;
     border: none;
     border-width: 0;
-    border-radius: 2vw;
-    font-size: 1.5vw;
+    border-radius: 2vh;
+    font-size: 1.5vh;
     font-weight: 400;
     color: #fff;
     background-color: #4070f4;
@@ -120,25 +120,25 @@ h2
 
 .data
 {
-    font-size: 2vw;
+    font-size: 2vh;
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 0.4vw;
+    gap: 0.4vh;
 }
 
 .data p
 {
-    font-size: 1.5vw;
+    font-size: 1.5vh;
 }
 
 .image
 {
     position: relative;
-    width: 19.5vw;
-    height: 19.5vw;
+    width: 19.5vh;
+    height: 19.5vh;
     background-color: #4070f4;
-    padding: 0.4vw;
+    padding: 0.4vh;
     
 }
 
@@ -156,9 +156,9 @@ h2
 
 .message-balloon
 {
-    padding: 0 3vw;
-    border-left: 0.1vw solid #0004;
-    border-right: 0.1vw solid #0004;
+    padding: 0 3vh;
+    border-left: 0.1vh solid #0004;
+    border-right: 0.1vh solid #0004;
 }
 
 .link
@@ -167,9 +167,9 @@ h2
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 2.5vw;
-    width: 4.6vw;
-    height: 4.6vw;
+    font-size: 2.5vh;
+    width: 4.6vh;
+    height: 4.6vh;
     background-color: #4070f4;
     border-radius: 50%;
     text-decoration: none;
@@ -177,7 +177,7 @@ h2
 
 .profile-img
 {
-    border: 0.45vw solid #fff;
+    border: 0.45vh solid #fff;
     height: 100%;
     width: 100%;
 }
@@ -185,7 +185,7 @@ h2
 
 .share
 {
-    border: 0.1vw 0 #000c;
+    border: 0.1vh 0 #000c;
 }
 
 #profile-card
@@ -195,7 +195,7 @@ h2
 
 #social-media
 {
-    gap: 1.3vw;
+    gap: 1.3vh;
 }
 
 #facebook

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Flipping Card</title>
+        <meta name="author" content="Gabriel Vitório dos Santos">
+        <meta name="description" content="A flipping card design using HTML and CSS">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta name="keywords" content="HTML, flipping card, CSS">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <div id="bg">
+        <article>
+            <div class="card front">
+                <div id="logo" class="front__info">
+                    <img src="img/logo.png" alt="MasterCard logo image"/>
+                    <h5>Master Card</h5>
+                </div>
+
+                <div id="card-number" class="front__info">
+                    <div>
+                        <h6>Card Number</h6>
+                        <h4>0000 0000 0000 8450</h4>
+                    </div>
+                    <img id="chip" src="img/chip.png" alt="card chip"/>
+                    
+                </div>
+
+                <div id="name" class="front__info">
+                        <h5>Gabriel Vitório dos Santos</h5>
+                        <div id="valid-date">
+                            <h6>valid-thru</h6>
+                            <h5>05/28</h5>
+                        </div>
+                </div>
+            </div>
+            <div class="card back">
+                <div id="contact-info"><p>for customer service call 0800 7474 1515 or email at mastercard@corporation.com</p></div>
+                <div id="magnetic"></div>
+                <div id="signature"><span></span><p>500</p></div>
+                <div id="additional-info"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed totam dolore minus adipisci architecto impedit non eligendi, alias dicta atque, eos expedita quisquam culpa. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates?</p></div>
+            </div>
+        </article>
+        </div>
+    </body>
+</html>
