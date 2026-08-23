@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*
+{
+    font-family: "Poppins", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    --gap: 3.5vw;
+    --background-split: 35%;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+h1
+{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+h2
+{
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+
+#analytics
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#buttons
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: auto;
+}
+
+#footer
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+#profile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: calc( var(--gap) / 2);
+}
+
+#profile-card
+{
+    max-width: 40vw;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #4070f4 0%, #4070f4 var(--background-split), #fff var(--background-split), #fff 100%);
+    box-shadow: 0 0.7vw 1.4vw #0002;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    border-radius: 3vw;
+}
+
+#social-media
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button
+{
+    display: flex;
+    flex-direction: row;
+    padding: 0.6vw 3vw;
+    border: none;
+    border-width: 0;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #fff;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover
+{
+    background-color: #3763dc;
+}
+.button:active
+{
+    background-color: #2f52b2;
+}
+
+.data
+{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.4vw;
+}
+
+.data p
+{
+    font-size: 1.5vw;
+}
+
+.image
+{
+    position: relative;
+    width: 19.5vw;
+    height: 19.5vw;
+    background-color: #4070f4;
+    padding: 0.4vw;
+    
+}
+
+.image, .profile-img
+{
+    border-radius: 50%;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-balloon
+{
+    padding: 0 3vw;
+    border-left: 0.1vw solid #0004;
+    border-right: 0.1vw solid #0004;
+}
+
+.link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2.5vw;
+    width: 4.6vw;
+    height: 4.6vw;
+    background-color: #4070f4;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.profile-img
+{
+    border: 0.45vw solid #fff;
+    height: 100%;
+    width: 100%;
+}
+
+
+.share
+{
+    border: 0.1vw 0 #000c;
+}
+
+#profile-card
+{
+    gap: var(--gap);
+}
+
+#social-media
+{
+    gap: 1.3vw;
+}
+
+#facebook
+{
+    background-color: #4267b2;
+}
+#instagram
+{
+    background-color: #e1306c;
+}
+#twitter
+{
+    background-color: #1da1f2;
+}
+#youtube
+{
+    background-color: #f00;
+}
+#linkedin
+{
+    background-color: #4267b2;
+}

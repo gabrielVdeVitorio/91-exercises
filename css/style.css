@@ -18,13 +18,20 @@
 {
     padding-top: 20px;
     display: grid;
-    grid-template-columns: 20% 50% 30%;
+    grid-template-columns: 25% 50% 25%;
+}
+#center-container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 #center-container li
 {
     list-style-position: inside;
     font-size: 130%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 #center-container li:hover
